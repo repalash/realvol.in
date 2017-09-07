@@ -167,6 +167,17 @@
 				windowMargin: 10,
 				usePopupNav: true
 			});
+			$('.logo_popup').poptrox({
+				useBodyOverflow: false,
+				usePopupEasyClose: false,
+				overlayColor: '#000',
+				overlayOpacity: (skel.vars.IEVersion < 9 ? 0 : 0.75),
+				usePopupDefaultStyling: false,
+				usePopupCaption: true,
+				popupLoaderText: '',
+				windowMargin: 10,
+				usePopupNav: true
+			});
 
 	});
 

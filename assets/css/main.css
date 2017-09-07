@@ -1310,8 +1310,8 @@
 /* Basic */
 
 	body {
-		background-color: #183026;
-		background-image: url("../../images/colored_smooth.png");
+		background-color: #000000;
+		background-image: url("../../images/back_wide.png");
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center 0;
@@ -2239,7 +2239,7 @@
 
 			#banner {
 				padding: 4em 0 4em 0;
-				background-size: auto, 175% auto;
+				background-size: 100% auto;
 			}
 
 	}
@@ -2252,11 +2252,11 @@
 
 			body {
 				background-color: #000;
-				background-image: url("images/overlay.png"), url("../../images/colored_smooth.png");
-				background-repeat: repeat, no-repeat;
-				background-size: auto, 100% auto;
-				background-position: top left, top center;
-				background-attachment: scroll, scroll;
+				background-image: url("../../images/back_long.png");
+				background-repeat: no-repeat;
+				background-size: 100% auto;
+				background-position: top center;
+				background-attachment: scroll;
 				font-size: 14pt;
 			}
 
