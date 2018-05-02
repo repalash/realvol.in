@@ -1941,10 +1941,10 @@
 		}
 
 			#header header h1 {
-				font-weight: 600;
-				font-size: 2em;
+				font-weight: 200;
+/*				font-size: 2em;
 				letter-spacing: 10px;
-			}
+*/			}
 
 			#header header p {
 				border-top: solid 1px rgba(255, 255, 255, 0.5);
@@ -2002,8 +2002,8 @@
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
 		background: #35b88f url("images/banner.svg") bottom center no-repeat;
-		padding: 5em 0 5em 0;
-		margin: 0;
+		padding: 0.5em 0.5em 5em 0.5em;
+		/*margin: 0;*/
 		background-size: 125% auto;
 	}
 
@@ -2463,9 +2463,9 @@
 				}
 
 					#header header h1 {
-						font-size: 1.75em;
+/*						font-size: 1.75em;
 						letter-spacing: 6px;
-					}
+*/					}
 
 				#header footer {
 					bottom: 4.5em;
