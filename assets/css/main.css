@@ -2002,7 +2002,7 @@
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
 		background: #35b88f url("images/banner.svg") bottom center no-repeat;
-		padding: 0.5em 0.5em 5em 0.5em;
+		padding: 10px 10px 5em 10px;
 		/*margin: 0;*/
 		background-size: 125% auto;
 	}
@@ -2238,7 +2238,7 @@
 		/* Banner */
 
 			#banner {
-				padding: 4em 0 4em 0;
+				padding: 10px 10px 3em 10px;
 				background-size: 100% auto;
 			}
 
@@ -2311,7 +2311,7 @@
 		/* Banner */
 
 			#banner {
-				padding: 3.5em;
+				padding: 10px 10px 3em 10px;
 				background-size: 200% auto;
 			}
 
@@ -2490,7 +2490,7 @@
 		/* Banner */
 
 			#banner {
-				padding: 3em 2em 3em 2em;
+				padding: 10px 10px 3em 10px;
 				background-size: auto 150%;
 			}
 

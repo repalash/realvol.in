@@ -145,25 +145,25 @@
 			}
 
 		// Poptrox.
-			$('.gallery').poptrox({
+			// $('.gallery').poptrox({
+			// 	useBodyOverflow: false,
+			// 	usePopupEasyClose: false,
+			// 	overlayColor: '#0a1919',
+			// 	overlayOpacity: (skel.vars.IEVersion < 9 ? 0 : 0.75),
+			// 	usePopupDefaultStyling: false,
+			// 	usePopupCaption: true,
+			// 	popupLoaderText: '',
+			// 	windowMargin: 10,
+			// 	usePopupNav: true
+			// });
+			$('.popup_gal').poptrox({
 				useBodyOverflow: false,
 				usePopupEasyClose: false,
 				overlayColor: '#0a1919',
 				overlayOpacity: (skel.vars.IEVersion < 9 ? 0 : 0.75),
 				usePopupDefaultStyling: false,
 				usePopupCaption: true,
-				popupLoaderText: '',
-				windowMargin: 10,
-				usePopupNav: true
-			});
-			$('.small_gal').poptrox({
-				useBodyOverflow: false,
-				usePopupEasyClose: false,
-				overlayColor: '#0a1919',
-				overlayOpacity: (skel.vars.IEVersion < 9 ? 0 : 0.75),
-				usePopupDefaultStyling: false,
-				usePopupCaption: true,
-				popupLoaderText: '',
+				popupLoaderText: 'Loading image',
 				windowMargin: 10,
 				usePopupNav: true
 			});
@@ -174,9 +174,9 @@
 				overlayOpacity: (skel.vars.IEVersion < 9 ? 0 : 0.75),
 				usePopupDefaultStyling: false,
 				usePopupCaption: true,
-				popupLoaderText: '',
+				popupLoaderText: 'Loading image',
 				windowMargin: 10,
-				usePopupNav: true
+				usePopupNav: false
 			});
 
 	});
